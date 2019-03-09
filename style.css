@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header-wrap {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    margin-top: 15px;
+}
