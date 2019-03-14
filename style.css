@@ -18,10 +18,33 @@ input {
     margin-top: 15px;
 }
 
+main {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
 .contentBlock{
     display: inline-block;
-    width: 23%;
-    height: 70px;
+    width: 180px;
+    height: 100px;
     background-color: darkgray;
     margin: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .contentBlock{
+        display: inline-block;
+        width: 150px;
+        height: 70px;
+        background-color: darkgray;
+        margin: 5px;
+    }
 }
