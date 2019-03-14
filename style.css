@@ -17,3 +17,11 @@ header li {
 input {
     margin-top: 15px;
 }
+
+.contentBlock{
+    display: inline-block;
+    width: 23%;
+    height: 70px;
+    background-color: darkgray;
+    margin: 5px;
+}
