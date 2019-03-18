@@ -31,7 +31,12 @@ h1 {
     text-align: center;
 }
 
-.contentBlock{
+.content {
+    grid-template-columns: repeat(4, 180px);
+    grid-template-rows: auto;
+}
+
+.contentBlock {
     display: inline-block;
     width: 180px;
     height: 100px;
@@ -46,5 +51,8 @@ h1 {
         height: 70px;
         background-color: darkgray;
         margin: 5px;
+    }
+    input {
+        display: none;
     }
 }
